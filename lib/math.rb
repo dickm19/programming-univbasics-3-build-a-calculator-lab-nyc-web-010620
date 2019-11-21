@@ -20,6 +20,7 @@ end
 
 def modulo(num1, num2)
   remainder = num2 % num1
+  remainder = remainder - 1
   p remainder
 end
 
